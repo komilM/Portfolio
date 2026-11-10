@@ -309,6 +309,7 @@ const SKILLS = [
 
 const SITE_URL1 = "https://car-rental-blond-beta.vercel.app/"
 const SITE_URL2 = "https://faceter.vercel.app/"
+const SITE_URL3 = "https://firstgame-beta.vercel.app/"
 const EMAIL = ""
 const TELEGRAM = "https://t.me/Its_Komil"
 
@@ -432,6 +433,30 @@ const App = () => {
                   <span className="chip">UI design</span>
                   <span className="chip">Mock API</span>
                   <span className="chip">Frontent</span>
+                </div>
+                <span className="btn btn-primary btn-sm">Visit site ↗</span>
+              </div>
+
+              <div className="mock" aria-hidden="true">
+                <div className="mock-bar"><i /><i /><i /></div>
+                <div className="mock-line accent" />
+                <div className="mock-line" />
+                <div className="mock-line" style={{ width: '80%' }} />
+                <div className="mock-block" />
+              </div>
+            </SpotlightCard>
+          </Reveal>
+
+          <Reveal>
+            <SpotlightCard className="project" tilt={3} onClick={() => window.open(SITE_URL3, "_blank")}>
+              <div className="project-text">
+                <h3>Battle arena</h3>
+                <p>My first game in website</p>
+                <div className="project-tags">
+                  <span className="chip">React</span>
+                  <span className="chip">UI design</span>
+                  <span className="chip">Game</span>
+                  <span className="chip">Online server</span>
                 </div>
                 <span className="btn btn-primary btn-sm">Visit site ↗</span>
               </div>
