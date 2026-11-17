@@ -309,7 +309,7 @@ const SKILLS = [
 
 const SITE_URL1 = "https://car-rental-blond-beta.vercel.app/"
 const SITE_URL2 = "https://faceter.vercel.app/"
-const SITE_URL3 = "https://firstgame-beta.vercel.app/"
+const SITE_URL3 = "https://ancientkingdom-six.vercel.app"
 const EMAIL = ""
 const TELEGRAM = "https://t.me/Its_Komil"
 
