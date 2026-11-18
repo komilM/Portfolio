@@ -450,7 +450,7 @@ const App = () => {
           <Reveal>
             <SpotlightCard className="project" tilt={3} onClick={() => window.open(SITE_URL3, "_blank")}>
               <div className="project-text">
-                <h3>Battle arena</h3>
+                <h3>Ancient Kingdom</h3>
                 <p>My first game in website</p>
                 <div className="project-tags">
                   <span className="chip">React</span>
